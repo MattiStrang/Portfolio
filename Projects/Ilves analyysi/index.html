@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lynx & Cervid Population Analysis</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="content">
+        <h1>Ilves- ja peurakantojen korrelaatioanalyysi</h1>
+
+        <p>
+          Tämä projekti keskittyy analysoimaan ilves- ja peurakantojen välistä
+          suhdetta Suomessa. Työn päätavoitteena oli selvittää tilastollisesti,
+          miten ilveskannan kasvu on vaikuttanut peurakannan määrään viimeisten
+          vuosikymmenten aikana.
+        </p>
+
+        <h2>Datan keruu ja esikäsittely</h2>
+        <p>
+          Analyysissa käytetty raakadata sisältää kanta-arviot vuosilta
+          2000–2024, ja se on peräisin Luonnonvarakeskukselta (LUKE). Prosessi
+          alkoi lataamalla tiedot Excel- ja CSV-muodoissa. Datan ensimmäinen
+          puhdistus tehtiin Excelin Power Querylla, jossa poistin turhat
+          sarakkeet ja rajasin aineiston olennaisiin muuttujiin.
+        </p>
+
+        <h2>Python-integraatio ja analyysimenetelmät</h2>
+        <p>
+          Esikäsittelyn jälkeen aineisto siirrettiin Python-ympäristöön. Tämän
+          vaiheen tarkoituksena oli harjaannuttaa taitoja Pandas-kirjaston
+          käytössä ja data-analyysissa. Käytin Pythonia monimutkaisempiin
+          puhdistustehtäviin, kuten säännöllisten lausekkeiden (Regex) käyttöön
+          lukumuotoilujen ja tuhaterottimien korjaamiseksi, jotka olivat
+          alkuperäisessä datassa epäyhtenäisiä.
+        </p>
+
+        <img
+          src="../../img/Ilves-Peura_corr1.png"
+          alt="kaavio korrelaatiosta koko aineistolla"
+        />
+
+        <h2>Analyysin tulokset ja havainnot</h2>
+        <p>
+          Analyysi paljasti mielenkiintoisen muutoksen populaatioiden välisessä
+          dynamiikassa. Tarkasteltaessa koko 25 vuoden historiaa, havaitaan
+          kohtalainen positiivinen korrelaatio (0.57). Tämä viittaa siihen, että
+          pitkällä aikavälillä molemmat lajit ovat hyötyneet samoista
+          suotuisista ympäristötekijöistä.
+        </p>
+
+        <p>
+          Tilanne kuitenkin muuttuu merkittävästi, kun tarkastelu rajataan
+          viimeiseen viiteen vuoteen (2020–2024). Tällöin korrelaatio muuttuu
+          erittäin vahvaksi ja negatiiviseksi (-0.92). Tämä lähes täydellinen
+          käänteinen suhde osoittaa, että ilveskannan nopea kasvu on kulkenut
+          käsi kädessä peurakannan huomattavan laskun kanssa, mikä viittaa
+          petopaineen kasvuun.
+        </p>
+
+        <img
+          src="../../img/Ilves-Peura_corr2.png"
+          alt="kaavio korrelaatiosta viimeisellä viiden vuoden jaksolla"
+        />
+
+        <h2>Projektin lähdekoodi</h2>
+        <p>Koko aineiston analyysi</p>
+        <img src="../../img/Lynx.png" alt="lähdekoodi" />
+        <p>Ja vain viimeiset 5 vuotta</p>
+        <img src="../../img/Lynx2.png" alt="lähdekoodi" />
+      </section>
+    </div>
+  </body>
+</html>

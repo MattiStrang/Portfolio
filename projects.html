@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matti's portfolio - Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-grid"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h2 class="header">My Recent Projects</h2>
+      <p class="project-overview">
+        Below you'll find a selection of my recent technical work and
+        coursework. Please note that many of these projects are
+        <strong>experimental</strong> or <strong>works in progress</strong>,
+        serving as a hands-on log of my learning process rather than polished
+        commercial products.
+      </p>
+
+      <div class="row justify-content-center g-4">
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+          <div class="card">
+            <img
+              src="./img/LineChart.png"
+              class="card-img-top"
+              alt="project image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Weather Time-Series Visualizer</h5>
+              <p class="card-text">
+                A professional time-series visualization built with D3.js (v7).
+                This project focuses on rendering historical weather trends into
+                a clean, scalable SVG format. It demonstrates the ability to
+                handle complex data streams and present them with engineering
+                precision.
+                <a href="./Projects/Timeseries/index.html">Visit</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+          <div class="card">
+            <img
+              src="./img/Pingpong.png"
+              class="card-img-top"
+              alt="project image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pinball</h5>
+              <p class="card-text">
+                A structured multi-column website created using HTML and CSS.
+              </p>
+              <a href="./Projects/pinball/index.html">Visit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+          <div class="card">
+            <img
+              src="./img/Ilves-Peura_corr1.png"
+              class="card-img-top"
+              alt="project image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Lynx & Cervid Population Dynamics Analyzer
+              </h5>
+              <p class="card-text">
+                Python-based EDA investigating predator-prey dynamics
+                (2000–2024). Features Regex data cleaning and dual-axis
+                visualization to analyze statistical correlations and population
+                trend shifts between lynx and deer.
+              </p>
+              <a href="./Projects/Ilves analyysi/index.html">Visit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+          <div class="card">
+            <img
+              src="./img/Histogrammi.png"
+              class="card-img-top"
+              alt="project image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dynamic Weather Metric Analyzer</h5>
+              <p class="card-text">
+                An interactive statistical tool built with D3.js (v7) for
+                analyzing meteorological distributions. The application features
+                a dynamic binning engine that processes local weather datasets,
+                allowing users to toggle between multiple metrics like humidity,
+                pressure, and temperature in real-time.
+              </p>
+              <a href="./Projects/Histogrammi/index.html">Visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-5 py-4 footer-shadow">
+      <a href="https://github.com/MattiStrang" target="_blank">
+        <i class="bi bi-github"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/matti-strang-9545a9391"
+        target="_blank"
+      >
+        <i class="bi bi-linkedin"></i>
+      </a>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

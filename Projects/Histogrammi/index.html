@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Histogrammi</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+      }
+
+      /* Nappi vasempaan yläkulmaan */
+      a.button {
+        font-size: 1em;
+        font-weight: bold;
+        color: #d4af37;
+        display: inline-block;
+        padding: 12px 24px;
+        text-align: center;
+        border: 2px solid #d4af37;
+        text-decoration: none;
+        transition: all 0.4s;
+        margin-bottom: 20px; /* Tilaa graafin ja napin väliin */
+      }
+
+      a.button:hover {
+        color: white;
+        background-color: #203354;
+      }
+
+      .barGroup rect {
+        transition: all 1s ease-out;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="#" id="button" class="button">Change Metric</a>
+    <div id="wrapper"></div>
+
+    <script src="https://d3js.org/d3.v7.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Kuvien keskitys ja koko */
+img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  img {
+    max-width: 90%;
+  }
+}

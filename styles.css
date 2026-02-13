@@ -1,0 +1,147 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+nav.navbar {
+  background-color: #203354 !important;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.35) !important;
+}
+
+nav.navbar .navbar-nav {
+  margin: 0 auto;
+}
+
+nav.navbar .nav-link,
+nav.navbar .navbar-brand {
+  color: #d4af37 !important;
+  text-align: center !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+}
+
+nav.navbar .nav-link:hover {
+  color: #f5d77d !important;
+}
+
+nav.navbar .nav-link.active {
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  padding: 6px 10px !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler i {
+  display: flex;
+  font-size: 2rem;
+  color: #d4af37;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-toggler:hover i {
+  color: #f5d77d;
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.header,
+h1,
+h2 {
+  color: #d4af37 !important;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+.custom-img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100%;
+  max-width: 18rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card a {
+  text-decoration: none;
+  color: #d4af37;
+  font-weight: 600;
+  display: block;
+  margin-top: 10px;
+}
+
+.card a:hover {
+  text-decoration: underline;
+  color: #f5d77d;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-overview {
+  text-align: center;
+  margin: 0 auto 40px auto;
+  max-width: 800px;
+}
+
+.skill-icon-img {
+  max-width: 80px;
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-icon-img:hover {
+  transform: scale(1.1);
+}
+
+.skill-text-container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+footer {
+  background-color: #203354;
+  color: #d4af37;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-shadow {
+  box-shadow: 0 -6px 15px rgba(0, 0, 0, 0.35) !important;
+}
+
+footer a {
+  color: #d4af37 !important;
+  margin: 0 15px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f5d77d !important;
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
