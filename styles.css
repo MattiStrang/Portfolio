@@ -7,6 +7,10 @@ body {
   flex-direction: column;
 }
 
+main {
+  flex: 1;
+}
+
 nav.navbar {
   background-color: #203354 !important;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.35) !important;
@@ -145,3 +149,4 @@ footer a:hover {
   transform: scale(1.1);
   transition: transform 0.2s;
 }
+
